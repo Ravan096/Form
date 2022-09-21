@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+form{
+    max-width: 800px;
+    margin: auto;
+    background: linear-gradient(to bottom, rgb(56, 49, 49), rgb(241, 195, 195));
+    height: 800px;
+}
+h1{
+    text-align: center;
+    color: rgb(153, 15, 223);
+    font-size: 40px;
+}
+form>div{
+    width: 80%;
+    margin: auto;
+}
+input[type="text"],
+input[type="email"],
+input[type="Number"],
+select,input[type="textarea"],
+input[type="password"]{
+    width: 80%;
+    margin: 20px auto;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-weight: 600;
+    padding: 6px;
+}
+input[type="submit"]{
+    background-color: rgb(240, 50, 50);
+    display: block;
+    margin: auto;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 7px 10px;
+    border-radius: 35px;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    width: 100px;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(231, 66, 99);
+}
+.checkb{
+    padding: 20px;
+    border-radius: 3px;
+}
+label[for="name"],
+label[for="email"],
+label[for="message"],
+label[for="number"],
+label[for="gender"],
+label[for="frontend"],
+label[for="backend"]{
+    font-size: 20px;
+}
+
+.fieldset{
+    font-size: 20px;
+}
+.password{
+    font-size: 20px;
+}

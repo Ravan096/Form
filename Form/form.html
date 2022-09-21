@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <form action="">
+        <h1>Contact Us</h1>
+        <div><label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name"></div>
+        <div><label for="email">Email</label>
+            <input type="email" placeholder="Enter your email"></div>
+        <div><label for="message">Message:</label>
+            <input type="textarea" placeholder="Enter your message"></div>
+        <div><label for="number">Number:</label>
+            <input type="Number" placeholder="Enter your number"></div>
+            <div>
+                <label for="gender">Gender:</label>
+                <select name="gender" id="">
+                    <option value="">Choose one</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                    <option value="">Transgender</option>
+                </select>
+            </div>
+        <div class="checkb">
+            <label for="frontend">Frontend:</label>
+            <input type="checkbox">
+            <label for="backend">Backend:</label>
+            <input type="checkbox"></div>
+        <div class="fieldset"><fieldset>
+            <legend>Mode of payment</legend>
+            Cash: <input type="radio" name="payment" id="cash">
+            Bank: <input type="radio" name="payment" id="bank">
+        </fieldset></div>
+        <div class="password">Password: <input required type="password" name="password" id="password">
+            <input type="submit" value="submit"></div>
+    </form>
+</body>
+</html>
